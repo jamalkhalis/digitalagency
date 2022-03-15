@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+	<title>nxt. Digital Agency - HTML Template</title>
+
+	<!-- Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+
+	<!-- Nucleo Icons -->
+	<link href="../../assets/css/nucleo-icons.css" rel="stylesheet" />
+	<link href="../../assets/css/nucleo-svg.css" rel="stylesheet" />
+
+	<!-- Font Awesome Icons -->
+	<script type="text/javascript" src="../../assets/icons/fontawesome.js"></script>
+	<!-- bootstrap-icons -->
+	<link rel="stylesheet" type="text/css" href="../../assets/icons/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+	<!-- CSS Files -->
+	<link id="pagestyle" href="../../assets/css/material-kit-pro.min.css?v=3.0.1" rel="stylesheet" />
+
+	<style type="text/css">
+
+		.link {
+		    position: relative;
+		}
+
+		.link::before,
+		.link::after {
+		    position: absolute;
+		    width: 100%;
+		    height: 2px;
+		    background: currentColor;
+		    top: 100%;
+		    left: 0;
+		}
+
+		.link::before {
+		    content: '';
+		    /* show by default */
+		}
+
+		.link--metis::before {
+		    transform-origin: 100% 50%;
+		    transform: scale3d(0, 1, 1);
+		    transition: transform 0.3s;
+		}
+
+		.link--metis:hover::before {
+		    transform-origin: 0% 50%;
+		    transform: scale3d(1, 1, 1);
+		}
+
+	</style>
+
+  
+</head>
+
+<body class="career bg-gray-200">
+
+	<!-- Navbar Transparent -->
+	<nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none navbar-transparent ">
+
+		<div class="container">
+
+			<a class="navbar-brand text-white ms-3 ms-lg-0 fw-bolder fs-2" href="index.html" rel="tooltip" title="Designed and Coded by nxt" data-placement="bottom" target="_blank">
+				<img src="../../assets/img/logo-white.png">
+			</a>
+		 
+			<button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+
+				<span class="navbar-toggler-icon mt-2">
+					<span class="navbar-toggler-bar bar1"></span>
+					<span class="navbar-toggler-bar bar2"></span>
+					<span class="navbar-toggler-bar bar3"></span>
+				</span>
+
+			</button>
+
+			<div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+
+				<ul class="navbar-nav navbar-nav-hover ms-auto">
+
+					<li class="nav-item mx-3">
+
+						<a class="nav-link cursor-pointer fs-6 px-0 link link--metis" href="index.html">
+								Home
+						</a>
+
+					</li>
+
+					<li class="nav-item mx-3">
+
+						<a class="nav-link cursor-pointer fs-6 px-0 link" href="./about.html">
+								About
+						</a>
+
+					</li>
+
+					<li class="nav-item mx-3">
+
+						<a class="nav-link cursor-pointer fs-6 px-0 link link--metis" href="./services.html">
+								Services
+						</a>
+
+					</li>
+
+					<li class="nav-item mx-3">
+
+						<a class="nav-link cursor-pointer fs-6 px-0 link link--metis" href="./blog.html">
+								Blog
+						</a>
+
+					</li>
+
+					<li class="nav-item mx-3">
+
+						<a class="nav-link cursor-pointer fs-6 px-0 link link--metis" href="./contact.html">
+								Contact
+						</a>
+
+					</li>
+
+				</ul>
+
+				<ul class="nav navbar-nav ms-auto">
+					<li class="nav-item ms-2 ms-lg-0 mt-2 mt-lg-0">
+						<a class="nav-link btn btn-twitter btn-icon-only rounded-circle mb-lg-0 d-flex justify-content-center align-items-center" href="https://twitter.com/">
+							<i class="fab fa-twitter text-white"></i>
+						</a>
+					</li>
+					<li class="nav-item ms-2 ms-lg-0">
+						<a class="nav-link mx-0 mx-lg-2 btn btn-facebook btn-icon-only rounded-circle mb-lg-0 d-flex justify-content-center align-items-center" href="https://www.facebook.com/">
+							<i class="fab fa-facebook text-white"></i>
+						</a>
+					</li>
+					<li class="nav-item ms-2 ms-lg-0">
+						<a class="nav-link mx-0 mx-lg-2 btn btn-instagram btn-icon-only rounded-circle mb-lg-0 d-flex justify-content-center align-items-center" href="https://www.instagram.com/">
+							<i class="fab fa-instagram text-white"></i>
+						</a>
+					</li>
+					<li class="nav-item ms-2 ms-lg-0">
+						<a class="nav-link btn btn-dribbble btn-icon-only rounded-circle mb-0 d-flex justify-content-center align-items-center" href="https://www.dribbble.com/">
+							<i class="fab fa-dribbble text-white"></i>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</nav>
+	<!-- End Navbar -->
+
+
+	<!-- -------- START HEADER 10 w/ floating img and bg  ------- -->
+	<header class="position-relative">
+
+		<div class="page-header min-vh-50 position-relative" style="background-image: url('./../../assets/img/bg/2.jpg');" loading="lazy">
+			<span class="mask bg-gradient-dark opacity-6"></span>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6 text-center mx-auto">
+
+
+						<h5 class="text-white display-1 fw-bolder fadeIn2 fadeInBottom">About</h5>
+
+						<a href="#section-1" class="btn btn-lg btn-transparent fadeIn1 fadeInBottom">
+							<i class="bi bi-arrow-down-circle fs-2 text-white"></i>
+						</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- -------- END HEADER 10 w/ floating img and bg  ------- -->
+
+
+	<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 pt-0" id="section-1">
+
+		<section class="py-3 py-lg-7">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-8 col-lg-6 mx-auto h2 text-center">
+					We create digital ideas that are bigger, bolder, braver and better.
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+
+				<div class="col-md-5 my-3 my-md-5">
+					<p class="lead">
+						Based in Paris, we work closely with clients from around the world, getting to the heart of their business to develop successful digital ideas and strategies that engage and convert significant, targeted traffic.
+					</p>
+				</div>
+
+				<div class="col-md-5 my-3 my-md-5">
+					<p class="lead">
+						As a leading digital agency in Paris, we look to engage with our clients beyond the conventional design and development agency relationship, becoming a partner to the people and companies we work with.
+					</p>
+				</div>
+				
+			</div>
+
+		</div>
+		</section>
+
+		<!-- -------- START Features w/ 6 cols w/ company logos & title & text -------- -->
+		<section class="py-2">
+			<div class="container">
+
+				<div class="row mt-1">
+
+					<div class="col-sm-6 col-lg-4 mt-lg-0 mt-4 text-center">
+						<span class="text-primary fs-2 width-32-px mb-3">
+							<i class="bi bi-files"></i>
+						</span>
+						<h3>Unique elements</h3>
+						<p class="text-sm">Praesent porttitor nunc vitae lacus vehicula, nec mollis eros congue.</p>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 mt-lg-0 mt-4 text-center">
+						<span class="text-primary fs-2 width-32-px mb-3">
+							<i class="bi bi-cloud-plus"></i>
+						</span>
+						<h3>Live page builder</h3>
+						<p class="text-sm">Praesent porttitor nunc vitae lacus vehicula, nec mollis eros congue.</p>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 mt-lg-0 mt-4 text-center">
+						<span class="text-primary fs-2 width-32-px mb-3">
+							<i class="bi bi-disc"></i>
+						</span>
+						<h3>High Performance</h3>
+						<p class="text-sm">Praesent porttitor nunc vitae lacus vehicula, nec mollis eros congue.</p>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 mt-lg-0 mt-4 text-center">
+						<span class="text-primary fs-2 width-32-px mb-3">
+							<i class="bi bi-files"></i>
+						</span>
+						<h3>Unique elements</h3>
+						<p class="text-sm">Praesent porttitor nunc vitae lacus vehicula, nec mollis eros congue.</p>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 mt-lg-0 mt-4 text-center">
+						<span class="text-primary fs-2 width-32-px mb-3">
+							<i class="bi bi-cloud-plus"></i>
+						</span>
+						<h3>Live page builder</h3>
+						<p class="text-sm">Praesent porttitor nunc vitae lacus vehicula, nec mollis eros congue.</p>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 mt-lg-0 mt-4 text-center">
+						<span class="text-primary fs-2 width-32-px mb-3">
+							<i class="bi bi-disc"></i>
+						</span>
+						<h3>High Performance</h3>
+						<p class="text-sm">Praesent porttitor nunc vitae lacus vehicula, nec mollis eros congue.</p>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- -------- END Features w/ 6 cols w/ company logos & title & text -------- -->
+
+		<section class="pb-5 py-md-7">
+		
+			<div class="row">
+
+				<div class="col-lg-8">
+					<img src="../../assets/img/bg/6.jpg" class="img-fluid">
+				</div>
+
+				<div class="col-lg-4">
+					
+					<h1 class="mt-5 ms-lg-n3">How We Work</h1>
+					<p class="lead py-4 ms-lg-4">
+						“Our mission is to produce the
+						highest quality work for every
+						client, on every project”
+					</p>
+
+					<div class="d-flex align-items-center ms-lg-5">
+
+						<button class="btn btn-success rounded-circle d-flex justify-content-cente align-items-center p-4 m-0">							
+							<!-- <span class="btn-inner--icon"><i class="fas fa-play fs-6"></i></span> -->
+							<i class="fas fa-play fs-5"></i>
+						</button>
+
+						<a href="" class="ms-4">SEE HOW WE WORK</a>
+
+					</div>
+
+				</div>
+				
+			</div>
+
+		</section>
+
+		<section class="pt-3 pb-4" id="count-stats">
+			<div class="container">
+				<div class="row">
+					<div class=" z-index-2 border-radius-xl mx-auto">
+						<div class="row">
+
+							<div class=" col-md-6 col-lg-3 position-relative">
+								<div class="p-3 text-center">
+									<h1 class="text-gradient text-primary"><span id="state1" countTo="250">0</span>+</h1>
+									<h5 class="mt-3">SUCCESSFUL PROJECTS</h5>
+								</div>
+								<hr class="vertical dark">
+							</div>
+
+							<div class=" col-md-6 col-lg-3 position-relative">
+								<div class="p-3 text-center">
+									<h1 class="text-gradient text-primary"> <span id="state2" countTo="100">0</span>+</h1>
+									<h5 class="mt-3">HAPPY CLIENTS</h5>
+								</div>
+								<hr class="vertical dark">
+							</div>
+
+							<div class=" col-md-6 col-lg-3">
+								<div class="p-3 text-center">
+									<h1 class="text-gradient text-primary" id="state3" countTo="75">0</h1>
+									<h5 class="mt-3">POSITIVE FEEDBACK</h5>
+								</div>
+							</div>
+
+							<div class=" col-md-6 col-lg-3">
+								<div class="p-3 text-center">
+									<h1 class="text-gradient text-primary" id="state4" countTo="3567">0</h1>
+									<h5 class="mt-3">CUPS OF COFFEE</h5>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		
+		<!-- START Teams w/ 4 cards in a row w/ avatar on bottom end-->
+		<section class="py-8">
+		<div class="container">
+			<div class="row pb-5">
+				<div class="col-md-8 mx-auto text-center">
+					<h1 class="">Meet the Team</h1>
+				</div>
+			</div>
+
+			<div class="row mt-lg-5 mt-4">
+				<div class="col-lg-4 col-sm-6 mb-4 pt-4 pt-lg-0">
+					<div class="card card-body">
+						<div class="row">
+							<div class="col-lg-5 text-end my-auto">
+								<img class="avatar avatar-xxl border-radius-lg mt-n5" src="../../assets/img/team/2.jpg">
+							</div>
+							<div class="col-lg-7">
+								<h5 class="mb-2">Michael Frisen</h5>
+								<span class="badge badge-sm rounded-pill text-dark">PHP Developer</span>
+								<br/>
+								<button type="button" class="btn btn-twitter btn-simple px-2 mb-0">
+									<i class="fab fa-twitter text-lg"></i>
+								</button>
+								<button type="button" class="btn btn-dribbble btn-simple px-2 mb-0">
+									<i class="fab fa-dribbble text-lg"></i>
+								</button>
+								<button type="button" class="btn btn-slack btn-simple px-2 mb-0">
+									<i class="fab fa-slack text-lg"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 mb-4 pt-4 pt-lg-0">
+					<div class="card card-body">
+						<div class="row">
+							<div class="col-lg-5 text-end my-auto">
+								<img class="avatar avatar-xxl border-radius-lg mt-n5" src="../../assets/img/team/3.jpg">
+							</div>
+							<div class="col-lg-7">
+								<h5 class="mb-2">Laurent Shaun</h5>
+								<span class="badge badge-sm rounded-pill text-dark">Laravel Senior</span>
+								<br/>
+								<button type="button" class="btn btn-facebook btn-simple px-2 mb-0">
+								<i class="fab fa-facebook-f text-lg"></i>
+									</button>
+								<button type="button" class="btn btn-dribbble btn-simple px-2 mb-0">
+									<i class="fab fa-dribbble text-lg"></i>
+								</button>
+								<button type="button" class="btn btn-slack btn-simple px-2 mb-0">
+									<i class="fab fa-slack text-lg"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6 mb-4 pt-4 pt-lg-0">
+					<div class="card card-body">
+						<div class="row">
+								<div class="col-lg-5 text-end my-auto">
+							<img class="avatar avatar-xxl border-radius-lg mt-n5" src="../../assets/img/team/4.jpg">
+							</div>
+							<div class="col-lg-7">
+								<h5 class="mb-2">Ramon Siente</h5>
+								<span class="badge badge-sm rounded-pill text-dark">Vue.js Specialist</span>
+								<br/>
+								<button type="button" class="btn btn-twitter btn-simple px-2 mb-0">
+									<i class="fab fa-twitter text-lg"></i>
+								</button>
+								<button type="button" class="btn btn-dribbble btn-simple px-2 mb-0">
+									<i class="fab fa-dribbble text-lg"></i>
+								</button>
+								<button type="button" class="btn btn-github btn-simple px-2 mb-0">
+									<i class="fab fa-github text-lg"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+		<!-- END Teams w/ 4 cards in a row w/ avatar on bottom end-->
+
+		<!-- START Testimonials w/ 3 cards w/ stars -->
+		<section class="py-5 position-relative">
+		<div class="container">
+
+			<div class="row">
+				<div class="text-center ">
+					<h1 class="mb-3">Our Customers</h1>
+					<h5 class="font-weight-light">
+						You need more informations?
+						Read our customers reviews.
+					</h5>
+				</div>
+			</div>
+
+			<div class="row mt-lg-6 mt-4">
+				<div class="col-lg-3 col-md-6 mb-lg-0 mb-4 ms-auto">
+					<div class="card mt-5">
+						<div class="position-relative mt-n4 mx-auto z-index-2">
+							<div class="blur-shadow-avatar">
+								<img class="avatar border-radius-lg avatar-lg" src="../../assets/img/team/6.jpg">
+							</div>
+						</div>
+						<h6 class="mb-0 mt-3 text-center">Lucian Eurel</h6>
+						<p class="text-xs mb-0 text-center">CEO Creative Tim</p>
+						<div class="card-body text-center py-0">
+							<p class="mt-4">
+								"Web Summit will increase your appetite, your inspiration, your skills, your motivation and your network."
+							</p>
+						</div>
+						<div class="card-footer text-center pt-3 position-relative z-index-1">
+							<div class="text-center">
+								<div class="rating float-none">
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="far fa-star text-warning"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+					<div class="card mt-5">
+						<div class="position-relative mt-n4 mx-auto z-index-2">
+							<div class="blur-shadow-avatar">
+								<img class="avatar border-radius-lg avatar-lg" src="../../assets/img/team/7.jpg">
+							</div>
+						</div>
+						<h6 class="mb-0 mt-3 text-center">Linde Michel</h6>
+						<p class="text-xs mb-0 text-center">CFO Slack</p>
+						<div class="card-body text-center py-0">
+							<p class="mt-4">
+								"Do not go where the path may lead, go instead where there is no path and leave a trail. You will succeed on it. "
+							</p>
+						</div>
+						<div class="card-footer text-center pt-3 position-relative z-index-1">
+							<div class="text-center">
+								<div class="rating float-none">
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="far fa-star text-warning"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mb-lg-0 mb-4 me-auto">
+					<div class="card mt-5">
+						<div class="position-relative mt-n4 mx-auto z-index-2">
+							<div class="blur-shadow-avatar">
+								<img class="avatar border-radius-lg avatar-lg" src="../../assets/img/team/1.jpg">
+							</div>
+						</div>
+						<h6 class="mb-0 mt-3 text-center">Misha Stam</h6>
+						<p class="text-xs mb-0 text-center">COO Dribbble</p>
+						<div class="card-body text-center py-0">
+							<p class="mt-4">
+								"The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails."
+							</p>
+						</div>
+						<div class="card-footer text-center pt-3 position-relative z-index-1">
+							<div class="text-center">
+								<div class="rating float-none">
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+									<i class="fas fa-star text-warning"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mb-lg-0 mb-4 me-auto">
+					<div class="card h-100">
+						<div class="card-body d-flex flex-column justify-content-center text-center">
+							<a href="javascript:;">
+								<i class="fa fa-plus text-secondary mb-3"></i>
+								<h5 class="text-secondary"> Add Testimonial </h5>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</section>
+		<!-- END Testimonials w/ 3 cards w/ stars -->
+
+
+	<section>
+		<!-- begin caousel -->
+		<div class="glide" data-glide='{"type": "carousel",
+										"focusAt": "center",
+										"startAt": 4,
+										"perView": 6,
+										"breakpoints": {
+											"992": {
+												"perView": 4
+											},
+											"576": {
+												"perView": 2
+											}
+										},
+										"autoplay": true,
+										"animationDuration": 3000,
+										"animationTimingFunc": "linear"}'>
+
+			<div class="glide__track" data-glide-el="track">
+
+				<ul class="glide__slides pb-0">
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-behance.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-facebook.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-nasa.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-apple.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-coinbase.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-digitalocean.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-netflix.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-pinterest.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-spotify.svg" class="d-block w-100" alt="...">
+					</li>
+
+					<li class="glide__slide">
+	                    <img src="../../assets/img/logos/gray-logos/logo-vodafone.svg" class="d-block w-100" alt="...">
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<!-- end carousel -->
+
+	</section>
+
+	</div>
+	<!-- ---- START FOOTER 2 dark w/ bg image 5 cols & subscribe area & social---- -->
+	<footer class="footer py-5 position-relative">
+	<div class="container position-relative">
+		<div class="row ">
+
+			<div class="col-lg-2 col-md-4 col-6">
+
+				<h6 class="mb-2 mt-4 text-sm">Main Navigation</h6>
+				<ul class="flex-column ms-n3 nav">
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Homepage
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Our Portfolio
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							About Us
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Get In Touch
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-6">
+				<h6 class="mb-2 mt-4 text-sm">Branded eCommerce</h6>
+				<ul class="flex-column ms-n3 nav">
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Brand Experience
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Platform & Positioning
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Trends & Insights
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Marketing Strategy
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-6">
+				<h6 class="mb-2 mt-4 text-sm">Digital Experience</h6>
+				<ul class="flex-column ms-n3 nav">
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Web Design
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Mobile App Design
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							UX / UI design
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Dashboard & Tool
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-6">
+				<h6 class="mb-2 mt-4 text-sm">Branding Strategy</h6>
+				<ul class="flex-column ms-n3 nav">
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Logo & Identity
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Content Management
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							System & guides
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">
+							Communications
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-6 col-8 ms-md-auto">
+				<h6 class="mb-2 mt-4 text-sm mb-0">Language & Currency</h6>
+				<ul class="nav flex-column">
+					<li class="nav-item mt-3">
+						<div class="input-group input-group-static">
+							<select class="form-control" name="language-button" id="language-button">
+								<option value="Choice 1" selected>English</option>
+								<option value="Choice 2">Chinese</option>
+								<option value="Choice 3">French</option>
+								<option value="Choice 4">Romanian</option>
+							</select>
+						</div>
+					</li>
+					<li class="nav-item mt-3">
+						<div class="input-group input-group-static">
+							<select class="form-control" name="currency-button" id="currency-button">
+								<option value="Choice 1" selected>USD</option>
+								<option value="Choice 2">EUR</option>
+								<option value="Choice 3">JPY</option>
+								<option value="Choice 4">GBP</option>
+								<option value="Choice 5">CAD</option>
+								<option value="Choice 6">RON</option>
+							</select>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+			<hr class="horizontal dark mb-4 mt-md-4 mt-md-0">
+
+		<div class="row">
+				<div class="col-lg-6 text-start">
+					<h6>Subscribe to our newsletters</h6>
+					<p class="opacity-8 mb-lg-0">The latest news, articles and resources sent to your inbox weekely.</p>
+				</div>
+				<div class="col-lg-4 ms-auto text-end my-auto">
+					<div class="row">
+						<div class="col-md-8 col-7">
+							<div class="input-group input-group-outline">
+							<label class="form-label">Email</label>
+							<input type="email" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4 col-5 text-start ps-0">
+							<button type="button" class="btn bg-gradient-primary mb-0 h-100">Subscribe</button>
+						</div>
+					</div>
+				</div>
+		</div>
+
+			<hr class="horizontal dark my-4">
+
+		<div class="row">
+
+			<div class="col-lg-6 col-md-6 my-auto">
+				<p class="mb-sm-0 opacity-8">
+					Copyright © 
+					<script> document.write(new Date().getFullYear())</script> 
+					Designed by
+					<a class="fw-bolder" href="#" rel="" title="Designed and Coded by nxt" data-placement="bottom" target="_blank">
+						nxt.
+					</a>
+				</p>
+			</div>
+
+			<div class="col-lg-4 col-md-6 ms-auto text-sm-end">
+				<button type="button" class="btn btn-icon-only btn-link mb-0 text-dark">
+					<i class="fab fa-facebook text-lg"></i>
+				</button>
+				<button type="button" class="btn btn-icon-only btn-link mb-0 text-dark">
+					<i class="fab fa-twitter text-lg"></i>
+				</button>
+				<button type="button" class="btn btn-icon-only btn-link mb-0 text-dark">
+					<i class="fab fa-dribbble text-lg"></i>
+				</button>
+				<button type="button" class="btn btn-icon-only btn-link mb-0 text-dark">
+					<i class="fab fa-github text-lg"></i>
+				</button>
+			</div>
+
+		</div>
+	</div>
+	</footer>
+	<!-- ---- END FOOTER 2 dark w/ bg image 5 cols & subscribe area & social---- -->
+
+
+
+	<!--   Core JS Files   -->
+	<script src="../../assets/js/core/popper.min.js" type="text/javascript"></script>
+	<script src="../../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../assets/js/plugins/perfect-scrollbar.min.js"></script>
+
+	<script src="../../assets/js/plugins/glide.min.js"></script>
+	<!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
+	<script src="../../assets/js/plugins/countup.min.js"></script>
+	<!--  Plugin for TypedJS, full documentation here: https://github.com/mattboldt/typed.js/ -->
+	<script src="../../assets/js/plugins/typedjs.js"></script>
+	<!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
+	<script src="../../assets/js/plugins/rellax.min.js"></script>
+	<!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
+	<script src="../../assets/js/plugins/tilt.min.js"></script>
+	<!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
+	<script src="../../assets/js/plugins/choices.min.js"></script>
+	<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+	<script src="../../assets/js/plugins/parallax.min.js"></script>
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="../../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+	<!--  Plugin for the blob animation -->
+	<script src="../../assets/js/plugins/anime.min.js" type="text/javascript"></script>
+	<!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
+	<!--  Google Maps Plugin    -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+	<!-- Place this tag in your head or just before your close body tag. -->
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script src="../../assets/js/material-kit-pro.min.js?v=3.0.1" type="text/javascript"></script>
+	
+	<script>
+		if (document.getElementsByClassName('rellax')) {
+		  // Also can pass in optional settings block
+		  var rellax = new Rellax('.rellax', {
+		    speed: -2,
+		    center: false,
+		    wrapper: null,
+		    round: true,
+		    vertical: true,
+		    horizontal: false
+		  });
+		}
+	</script>
+
+	<script>
+		if (document.getElementById('language-button')) {
+		  var element = document.getElementById('language-button');
+		  const example = new Choices(element, {
+		    searchEnabled: false
+		  });
+		}
+		if (document.getElementById('currency-button')) {
+		  var element = document.getElementById('currency-button');
+		  const example = new Choices(element, {
+		    searchEnabled: false
+		  });
+		}
+	</script>
+
+	<script>
+		const COMPONENT_NAME = "data-glide";
+		const COMPONENT_SELECTOR = `[${COMPONENT_NAME}]`;
+		const components = document.querySelectorAll(COMPONENT_SELECTOR);
+
+		for (let i = 0; i < components.length; i++) {
+		  const options = JSON.parse(
+		    components[i].getAttribute(COMPONENT_NAME) || "{}"
+		  );
+
+		  let glide = new Glide(
+		    components[i],
+		    options
+		  );
+
+		  glide.mount();
+		}
+	</script>
+
+	<script type="text/javascript">
+	    if (document.getElementById('state1')) {
+	      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+	      if (!countUp.error) {
+	        countUp.start();
+	      } else {
+	        console.error(countUp.error);
+	      }
+	    }
+	    if (document.getElementById('state2')) {
+	      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+	      if (!countUp1.error) {
+	        countUp1.start();
+	      } else {
+	        console.error(countUp1.error);
+	      }
+	    }
+	    if (document.getElementById('state3')) {
+	      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+	      if (!countUp2.error) {
+	        countUp2.start();
+	      } else {
+	        console.error(countUp2.error);
+	      };
+	    }
+	    if (document.getElementById('state4')) {
+	      const countUp2 = new CountUp('state4', document.getElementById("state4").getAttribute("countTo"));
+	      if (!countUp2.error) {
+	        countUp2.start();
+	      } else {
+	        console.error(countUp2.error);
+	      };
+	    }
+	 </script>
+
+	
+</body>
+
+</html>
